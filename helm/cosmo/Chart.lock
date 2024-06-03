@@ -1,0 +1,36 @@
+dependencies:
+- name: controlplane
+  repository: ""
+  version: ^0
+- name: router
+  repository: ""
+  version: ^0
+- name: studio
+  repository: ""
+  version: ^0
+- name: otelcollector
+  repository: ""
+  version: ^0
+- name: graphqlmetrics
+  repository: ""
+  version: ^0
+- name: cdn
+  repository: ""
+  version: ^0
+- name: postgresql
+  repository: https://charts.bitnami.com/bitnami
+  version: 12.8.0
+- name: keycloak
+  repository: https://charts.bitnami.com/bitnami
+  version: 17.3.1
+- name: clickhouse
+  repository: https://charts.bitnami.com/bitnami
+  version: 5.0.2
+- name: minio
+  repository: https://charts.bitnami.com/bitnami
+  version: 12.10.0
+- name: redis
+  repository: https://charts.bitnami.com/bitnami
+  version: 18.9.1
+digest: sha256:80b32cdc61e0ac9d64f291afdcfb8efa1bfbf985db686d779fbd1bfe97b1949d
+generated: "2024-04-10T10:52:54.566097+02:00"
