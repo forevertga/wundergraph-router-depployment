@@ -27,7 +27,8 @@ Note: The helm chart used in the codebase was gotten from `https://artifacthub.i
 ## Future plans
 1. Use a remote backend for terraform state management
 2. Deploy the infrastructure in the AWS region closest to the customers
-2. Follow the setup for production deployments on Cosmo docs
+3. Follow the setup for production deployments on Cosmo docs
 
 ## Troubleshooting
 - The postgres pod failed to start and was stuck in a pending state, and thus other components like the controlplane coould not connect to the database and kept crashing
+- Still working to fix the controlplane failure which is the last stage with the router deployement, everything else is fine asides that.
