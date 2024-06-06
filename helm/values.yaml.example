@@ -1,0 +1,6 @@
+service:
+  type: NodePort
+  port: 3002
+
+configuration:
+  graphApiToken: "<api-token-replace-me>"
